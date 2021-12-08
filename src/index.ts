@@ -13,7 +13,7 @@ let repeated = [`  <p>These lines are repeated many times to save memory on`,
                 `  <hr>`,
                 `  <img src="../logo.svg">`,
                 ``];
-for (let i = 0; lines.length < 100; i++) {
+for (let i = 0; lines.length < 30; i++) {
   lines.push(repeated[i % repeated.length]);
 }
 lines.push(`</body>`, ``);
