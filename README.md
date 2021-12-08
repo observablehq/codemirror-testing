@@ -24,3 +24,9 @@ Then point your browser to http://localhost:8080/.
 You can also run `npm run watch` to have Webpack watch for changes. Note: this
 command does _not_ include hot reloading in the browser, so don't forget to
 manually reload after compilation finishes!
+
+## Creating a reproducible case
+
+You can either create a branch, or commit directly to main and tag the committed
+version you want to share (as I did with scrollPosIntoView). Since this is more
+or less a scratchpad, we don't need to worry about keeping this orderly.
